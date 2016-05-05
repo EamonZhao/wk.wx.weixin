@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{44A9255C-FA96-4777-BCBC-FA27EDA7F14D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3756227E-C9AD-4D1E-935F-B6F754BA1225}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "WK.WX.WeiXin", "src\WK.WX.WeiXin\WK.WX.WeiXin.xproj", "{A9F66925-F58E-4475-9CB7-DD57F52F37DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9F66925-F58E-4475-9CB7-DD57F52F37DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9F66925-F58E-4475-9CB7-DD57F52F37DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9F66925-F58E-4475-9CB7-DD57F52F37DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9F66925-F58E-4475-9CB7-DD57F52F37DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A9F66925-F58E-4475-9CB7-DD57F52F37DC} = {44A9255C-FA96-4777-BCBC-FA27EDA7F14D}
+	EndGlobalSection
+EndGlobal
