@@ -1,0 +1,14 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "WK.WX.WeiXin.Service Class Library",
+  "authors": [ "Cid.Zhao" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+  "frameworks": {
+    "net452": { }
+  },
+  "dependencies": {
+    "WK.WX.WeiXin.Data": "1.0.0-*"
+  }
+}
