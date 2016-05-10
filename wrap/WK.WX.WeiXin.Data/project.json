@@ -1,12 +1,14 @@
 ﻿{
   "version": "1.0.0-*",
   "description": "WK.WX.WeiXin.Data Class Library",
-  "authors": [ "Cid.Zhao" ],
+  "authors": [ "Eamon Zhao" ],
   "tags": [ "" ],
   "projectUrl": "",
   "licenseUrl": "",
-
   "frameworks": {
     "net452": { }
+  },
+  "dependencies": {
+    "EntityFramework": "6.1.3"
   }
 }
