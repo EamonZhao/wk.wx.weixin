@@ -1,4 +1,4 @@
-﻿{
+{
   "userSecretsId": "aspnet5-WK.WX.WeiXin-0348da16-ea9d-4733-9575-3a36352471ac",
   "version": "1.0.0-*",
   "compilationOptions": {
@@ -6,6 +6,8 @@
   },
 
   "dependencies": {
+    "EZ.Framework": "1.0.0-*",
+    "EZ.Framework.EntityFramework": "1.0.0-*",
     "Microsoft.ApplicationInsights.AspNet": "1.0.0-rc1",
     "Microsoft.AspNet.IISPlatformHandler": "1.0.0-rc1-final",
     "Microsoft.AspNet.Mvc": "6.0.0-rc1-final",
@@ -16,6 +18,9 @@
     "Microsoft.Extensions.Logging": "1.0.0-rc1-final",
     "Microsoft.Extensions.Logging.Console": "1.0.0-rc1-final",
     "Microsoft.Extensions.Logging.Debug": "1.0.0-rc1-final",
+    "SimpleInjector": "3.1.4",
+    "SimpleInjector.Integration.AspNet": "3.1.2-beta4",
+    "WK.WX.WeiXin.Data": "1.0.0-*",
     "WK.WX.WeiXin.Service": "1.0.0-*"
   },
 

@@ -1,9 +1,10 @@
+using EZ.Framework.EntityFramework;
 using System.Data.Entity;
 using WK.WX.WeiXin.Data.Entities;
 
 namespace WK.WX.WeiXin.Data
 {
-    public partial class DataContext : DbContext
+    public partial class DataContext : DbContext, IDataContext
     {
         public DataContext()
             : base("name=Model11")

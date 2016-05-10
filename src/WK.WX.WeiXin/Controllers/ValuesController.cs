@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNet.Mvc;
+using EZ.Framework.EntityFramework;
+using WK.WX.WeiXin.Service;
 
 namespace WK.WX.WeiXin.Controllers
 {
@@ -13,6 +15,8 @@ namespace WK.WX.WeiXin.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
+            var a = Startup.container.GetInstance<IAdminService>();
+            var b = Startup.container.GetInstance<IStaffService>();
             return new string[] { "value1", "value2" };
         }
 

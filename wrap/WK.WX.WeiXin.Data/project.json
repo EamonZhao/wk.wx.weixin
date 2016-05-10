@@ -1,4 +1,4 @@
-﻿{
+{
   "version": "1.0.0-*",
   "description": "WK.WX.WeiXin.Data Class Library",
   "authors": [ "Eamon Zhao" ],
@@ -9,6 +9,7 @@
     "net452": { }
   },
   "dependencies": {
-    "EntityFramework": "6.1.3"
+    "EntityFramework": "6.1.3",
+    "EZ.Framework.EntityFramework": "1.0.0-*"
   }
 }
