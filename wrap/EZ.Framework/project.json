@@ -1,0 +1,12 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "EZ.Framework Class Library",
+  "authors": [ "Cid.Zhao" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "frameworks": {
+    "net452": { }
+  }
+}
