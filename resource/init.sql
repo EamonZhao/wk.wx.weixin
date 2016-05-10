@@ -1,12 +1,11 @@
-USE [master]
-GO
+
 /****** Object:  Database [EamonDemo]    Script Date: 5/10/2016 4:23:46 PM ******/
 CREATE DATABASE [EamonDemo]
  CONTAINMENT = NONE
  ON  PRIMARY 
-( NAME = N'EamonDemo', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL11.MSSQLSERVER\MSSQL\DATA\EamonDemo.mdf' , SIZE = 5120KB , MAXSIZE = UNLIMITED, FILEGROWTH = 1024KB )
+( NAME = N'EamonDemo', FILENAME = N'D:\MSSQL Data\EamonDemo.mdf' , SIZE = 5120KB , MAXSIZE = UNLIMITED, FILEGROWTH = 1024KB )
  LOG ON 
-( NAME = N'EamonDemo_log', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL11.MSSQLSERVER\MSSQL\DATA\EamonDemo_log.ldf' , SIZE = 1024KB , MAXSIZE = 2048GB , FILEGROWTH = 10%)
+( NAME = N'EamonDemo_log', FILENAME = N'D:\MSSQL Data\EamonDemo_log.ldf' , SIZE = 1024KB , MAXSIZE = 2048GB , FILEGROWTH = 10%)
 GO
 ALTER DATABASE [EamonDemo] SET COMPATIBILITY_LEVEL = 110
 GO
