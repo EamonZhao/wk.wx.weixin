@@ -1,12 +1,15 @@
 ﻿{
   "version": "1.0.0-*",
-  "description": "EZ.Framework Class Library",
+  "description": "EZ.Framework.EntityFramework Class Library",
   "authors": [ "Eamon Zhao" ],
   "tags": [ "" ],
   "projectUrl": "",
   "licenseUrl": "",
-
   "frameworks": {
     "net452": { }
+  },
+  "dependencies": {
+    "EntityFramework": "6.1.3",
+    "EZ.Framework": "1.0.0-*"
   }
 }

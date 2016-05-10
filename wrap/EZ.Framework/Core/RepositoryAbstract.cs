@@ -4,28 +4,10 @@ using System.Threading.Tasks;
 
 namespace EZ.Framework.Core
 {
-    public abstract class GenericRepositoryAsync<TEntity, TKeyType> : IRepositoryAsync<TEntity, TKeyType>
+    public abstract class RepositoryAbstract<TEntity> : IRepository<TEntity>
          where TEntity : class, IEntity
-         where TKeyType : struct
     {
-        protected readonly IUnitOfWork UnitOfWork;
-
-        public GenericRepositoryAsync(IUnitOfWork unitOfWork)
-        {
-            if (unitOfWork == null) throw new ArgumentNullException(nameof(unitOfWork));
-
-            UnitOfWork = unitOfWork;
-        }
-
-        public abstract Task<TEntity> GetByKeyAsync(TKeyType key);
-
-        public abstract Task<IEnumerable<TEntity>> GetAll();
-
-        public abstract Task InsertAsync(TEntity entity);
-
-        public abstract Task UpdateAsync(TEntity entity);
-
-        public abstract Task DeleteAsync(TKeyType key);
+        
 
         //public virtual IEnumerable<TEntity> Get(
         //    Expression<Func<TEntity, bool>> filter = null,
@@ -55,5 +37,17 @@ namespace EZ.Framework.Core
         //    }
         //}
 
+        public abstract TEntity GetByKey(object key);
+        public abstract Task<TEntity> GetByKeyAsync(object key);
+
+        public abstract IEnumerable<TEntity> GetAll();
+        public abstract Task<IEnumerable<TEntity>> GetAllAsync();
+
+        public abstract void Insert(TEntity entity);
+
+        public abstract void Update(TEntity entity);
+
+        public abstract void Delete(object key);
+        public abstract void Delete(TEntity entity);
     }
 }

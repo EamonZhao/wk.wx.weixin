@@ -2,7 +2,7 @@
 
 namespace EZ.Framework.Core
 {
-    public class GenericServiceAsync : IServiceAsync
+    public class GenericServiceAsync : IService
     {
         protected readonly IUnitOfWork UnitOfWork;
 
